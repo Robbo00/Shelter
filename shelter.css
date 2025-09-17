@@ -1,3 +1,57 @@
-body{
-    background-color: rgb(230, 200, 165)
+body {
+    font-family: Arial;
+    margin: 20px;
+    background-color: #333;
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    color: black;
+}
+
+.pet {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+*{
+}
+h1{
+    text-align: center;
+    color: white;
+}
+.but{
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+}
+.disp{
+    border: solid white;
+    height: 30vw;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 35%;
+}
+p{
+    color: white;
+}
+button{
+    border-radius: 3vh;
+    background-color: blueviolet;
+    width: 40%;
+    transition: .3s;
+    color: white;
+}
+button:hover{
+    background-color: salmon;
+    cursor: pointer;
+}
+.pet{
+    font-weight: bold;
+    color: white;
 }
